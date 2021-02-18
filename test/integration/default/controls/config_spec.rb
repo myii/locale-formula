@@ -25,5 +25,9 @@ control 'Locale configuration' do
   when 'suse'
     # See: https://www.reddit.com/r/openSUSE/comments/bcwln1/how_do_i_set_the_locale_to_en_usutf8_in_an/ekuxh6j/
     test_red_hat
+  when 'linux'  # both `arch` and `gentoo`
+    # https://wiki.archlinux.org/index.php/Locale
+    # https://wiki.gentoo.org/wiki/Localization/Guide
+    test_red_hat
   end
 end
